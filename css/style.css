@@ -1,0 +1,43 @@
+body {
+
+}
+
+.PageHeader {
+    text-align: center;
+    color: red;
+}
+
+.CardRow {
+    border-style: dashed;
+    border-color: black;
+    border-width: 1px;
+    margin-top: 20px;
+}
+
+.Year {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: blue;
+}
+
+.CaseStudyCardXXX {
+    margin: 10px;
+    cursor: pointer;
+    width: 500px;
+    height: 300px;
+    border-radius: 25px;
+    background-color: green;
+}
+
+.CaseStudyCard {
+    border-radius: 25px;
+    border-color: red;
+    width: 16rem;
+}
+
+.CaseStudyCardBG {
+    /* border-radius: 25px; */
+    border-color: red;
+    /* width: 16rem; */
+}
