@@ -47,6 +47,8 @@ tag1Btn.forEach((el) => {
       x : -2000,
       duration : 2,
     });
+    unhideRows();
+    hideRows(".tag1");
   });
 });
 
@@ -69,6 +71,8 @@ tag2Btn.forEach((el) => {
       x : -2000,
       duration : 2,
     });
+    unhideRows();
+    hideRows(".tag2");
   });
 });
 
@@ -91,6 +95,7 @@ tag3Btn.forEach((el) => {
       x : -2000,
       duration : 2,
     });
+    unhideRows();
     hideRows(".tag3");
   });
 });
@@ -114,6 +119,8 @@ tag4Btn.forEach((el) => {
       x : 0,
       duration : 2,
     });
+    unhideRows();
+    hideRows(".tag4");
   });
 });
 
